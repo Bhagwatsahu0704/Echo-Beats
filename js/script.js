@@ -1,7 +1,8 @@
-console.log('Lets write JavaScript');
 let currentSong = new Audio();
 let songs;
 let currFolder;
+
+main()
 
 function secondsToMinutesSeconds(seconds) {
     if (isNaN(seconds) || seconds < 0) {
@@ -203,11 +204,5 @@ async function main() {
         }
 
     })
+} 
 
-
-
-
-
-}
-
-main() 
